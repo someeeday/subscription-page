@@ -65,7 +65,7 @@ const TELEGRAM_COPY = {
         support: 'Contact support'
     },
     zh: {
-        eyebrow: 'TELEGRAM 上的 BERег',
+        eyebrow: 'TELEGRAM 上的 BEREG',
         title: '所有管理都在一个地方',
         description: '在机器人中管理和续订订阅。如遇连接问题，可直接联系支持。',
         bot: '打开机器人',
