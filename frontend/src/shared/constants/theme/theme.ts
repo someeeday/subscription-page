@@ -22,32 +22,31 @@ export const theme = createTheme({
     fontSmoothing: true,
     focusRing: 'never',
     white: '#ffffff',
-    black: '#24292f',
+    black: '#07131f',
     colors: {
         dark: [
-            '#c9d1d9',
-            '#b1bac4',
-            '#8b949e',
-            '#6e7681',
-            '#484f58',
-            '#30363d',
-            '#21262d',
-            '#161b22',
-            '#0d1117',
-            '#010409'
+            '#d7e5f2',
+            '#bfd2e2',
+            '#9fb8ca',
+            '#7894a8',
+            '#506b80',
+            '#31495c',
+            '#203547',
+            '#132637',
+            '#0b1b2a',
+            '#06111c'
         ],
-
         blue: [
-            '#ddf4ff',
-            '#b6e3ff',
-            '#80ccff',
-            '#54aeff',
-            '#218bff',
-            '#0969da',
-            '#0550ae',
-            '#033d8b',
-            '#0a3069',
-            '#002155'
+            '#eaf6ff',
+            '#d2ecff',
+            '#a9dbff',
+            '#7bc7ff',
+            '#5cb6ff',
+            '#2e9cff',
+            '#168bff',
+            '#0a73ff',
+            '#075ccc',
+            '#06489f'
         ],
         green: [
             '#dafbe1',
@@ -86,8 +85,8 @@ export const theme = createTheme({
             '#471700'
         ]
     },
-    primaryShade: 8,
-    primaryColor: 'cyan',
+    primaryShade: 6,
+    primaryColor: 'blue',
     autoContrast: true,
     luminanceThreshold: 0.3,
     headings: {
