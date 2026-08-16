@@ -1,16 +1,34 @@
-## Remnawave Subscription Page
+# Берег — Subscription Page
 
-Learn more about Remnawave [here](https://docs.rw/).
+Брендированная версия [Remnawave Subscription Page](https://github.com/remnawave/subscription-page) для VPN «Берег».
 
-# Contributors
+## Ссылки
 
-Check [open issues](https://github.com/remnawave/subscription-page/issues) to help the progress of this project.
+- Telegram-бот: https://t.me/PribrezhnyBot
+- Поддержка: https://t.me/PribrezhnySupport
 
-<p align="center">
-Thanks to the all contributors who have helped improve Remnawave:
-</p>
-<p align="center">
-<a href="https://github.com/remnawave/subscription-page/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=remnawave/subscription-page" />
-</a>
-</p>
+## Docker image
+
+После включения GitHub Actions изменения из `main` автоматически собираются в:
+
+```text
+ghcr.io/someeeday/subscription-page:latest
+```
+
+В `docker-compose-prod.yml` уже указан этот image.
+
+## Обновление на сервере
+
+```bash
+docker compose pull remnawave-subscription-page
+docker compose up -d remnawave-subscription-page
+```
+
+## Брендинг
+
+- локальный знак: `frontend/public/assets/bereg-mark.svg`
+- основной цвет: Bereg Blue
+- ссылка на поддержку встроена в header
+- бот и поддержка вынесены в отдельный Telegram-блок на странице
+
+Проект сохраняет лицензию AGPL-3.0 исходного Remnawave Subscription Page.
