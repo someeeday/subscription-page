@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Берег">
+  <defs>
+    <linearGradient id="river" x1="18" y1="116" x2="111" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A73FF"/>
+      <stop offset="0.55" stop-color="#168BFF"/>
+      <stop offset="1" stop-color="#2E9CFF"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="22" y1="108" x2="103" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5CB6FF"/>
+      <stop offset="1" stop-color="#9BD3FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M-7 124C9 103 29 92 47 82C61 74 67 67 58 61C50 56 39 54 34 49C27 43 30 36 39 29C52 19 76 14 109 11C117 10 124 10 134 10C108 14 90 19 79 26C70 32 68 38 77 44C88 50 103 54 106 64C110 77 98 86 85 96C74 104 71 113 79 124H-7Z" fill="url(#edge)" opacity="0.42"/>
+  <path d="M-9 128C7 105 27 95 46 84C61 75 65 68 55 62C47 57 36 55 32 49C27 42 31 35 41 28C55 19 79 14 116 11C122 10 128 10 136 10C108 15 91 20 81 27C73 33 72 38 81 43C92 49 106 54 108 64C111 77 99 87 87 96C75 105 73 115 82 128H-9Z" fill="url(#river)"/>
+</svg>
